@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Método NetBees · Webinar gratuito el 16 de septiembre con Teresa Iglesias Martínez</title>
+<meta name="description" content="Webinar gratuito el 16 de septiembre a las 20:00 (España). Cómo funciona el Método NetBees para terminar con un flujo de trabajo propio ya optimizado con IA, no con una lista de tareas pendientes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#registro">Saltar al formulario</a>
+
+<header class="site">
+  <div class="wrap site__inner">
+    <span class="site__mark">Método <b>NetBees</b></span>
+    <a class="site__cta" href="#registro">Reservar mi plaza</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap hero__grid">
+
+      <div class="hero__body">
+        <p class="tag">Webinar gratuito &middot; online</p>
+
+        <h1 class="hero__title" id="hero-title">
+          El 90&nbsp;% de lo que se aprende en un curso de IA nunca llega al trabajo real.
+        </h1>
+
+        <p class="hero__lead">
+          El Método NetBees se diseñó para lo contrario: terminar el programa con un
+          flujo de trabajo propio, ya optimizado con IA &mdash; no con una lista de
+          tareas pendientes.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn" href="#registro">Reservar mi plaza</a>
+          <a class="link-quiet" href="#video">Ver el vídeo de Teresa</a>
+        </div>
+      </div>
+
+      <aside class="countdown" aria-labelledby="cd-title">
+        <p class="countdown__label" id="cd-title">El webinar empieza en</p>
+
+        <div class="countdown__grid" aria-hidden="true">
+          <span class="unit"><b class="unit__num" id="cd-d">--</b><i class="unit__lab">días</i></span>
+          <span class="unit"><b class="unit__num" id="cd-h">--</b><i class="unit__lab">horas</i></span>
+          <span class="unit"><b class="unit__num" id="cd-m">--</b><i class="unit__lab">min</i></span>
+          <span class="unit"><b class="unit__num" id="cd-s">--</b><i class="unit__lab">seg</i></span>
+        </div>
+
+        <p class="countdown__date">
+          <time datetime="2026-09-16T20:00:00+02:00">Miércoles 16 de septiembre</time>,
+          20:00&nbsp;h (España). Duración: 1&nbsp;h.
+        </p>
+      </aside>
+
+    </div>
+  </section>
+
+  <!-- ============ VÍDEO ============ -->
+  <section class="video" id="video" aria-labelledby="video-title">
+    <div class="wrap">
+      <h2 class="video__title" id="video-title">Teresa lo explica en un minuto y medio</h2>
+
+      <div class="player" id="player" data-state="poster">
+        <video class="player__video" id="webinar"
+               controls preload="none"
+               poster="assets/poster.jpg"
+               playsinline
+               aria-label="Vídeo: Teresa Iglesias Martínez explica el Método NetBees">
+          <source src="assets/webinar-720.mp4" type="video/mp4">
+          Tu navegador no puede reproducir este vídeo.
+          <a href="assets/webinar-1080.mp4">Descárgalo en alta resolución</a>.
+        </video>
+
+        <button class="player__start" id="playBtn" type="button" aria-label="Reproducir el vídeo (1 minuto 31 segundos)">
+          <span class="player__triangle" aria-hidden="true"></span>
+          <span class="player__duration">1:31</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MÉTODO ============ -->
+  <section class="method" aria-labelledby="method-title">
+    <div class="wrap">
+      <h2 class="method__title" id="method-title">Qué lo diferencia de una formación genérica</h2>
+
+      <ul class="method__list">
+        <li>La IA se trabaja sobre tu actividad profesional real, no sobre ejemplos abstractos.</li>
+        <li>El programa se construye con tus procesos, tus datos y tu sector, no con casos de &laquo;empresas tipo&raquo;.</li>
+        <li>Aprendes diseñando y aplicando soluciones, no acumulando apuntes para después.</li>
+        <li>Al finalizar, la solución ya está en marcha. No queda en tus manos implementarla en solitario.</li>
+        <li>Formación bonificable al 100&nbsp;% a través de FUNDAE.</li>
+      </ul>
+
+      <p class="method__note">
+        Este 16 de septiembre organizamos un webinar gratuito en el que explicamos cómo
+        funciona el Método NetBees y cómo se traduce, desde el primer día, en resultados
+        aplicados a tu actividad &mdash; no en teoría genérica.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ TERESA ============ -->
+  <section class="bio" aria-labelledby="bio-title">
+    <div class="wrap bio__grid">
+      <figure class="bio__portrait">
+        <picture>
+          <source srcset="assets/teresa.webp" type="image/webp">
+          <img src="assets/teresa.png" width="300" height="300"
+               alt="Retrato de Teresa Iglesias Martínez.">
+        </picture>
+      </figure>
+
+      <div class="bio__body">
+        <p class="bio__kicker">Quién lo imparte</p>
+        <h2 class="bio__title" id="bio-title">Teresa Iglesias Martínez</h2>
+        <p class="bio__role">Gestión de personas &middot; mejora de procesos &middot; transformación digital</p>
+        <p>
+          Más de 20 años acompañando a profesionales y organizaciones en procesos de cambio.
+          Ha trabajado en entornos corporativos y formativos ayudando a integrar la tecnología
+          &mdash;y ahora la inteligencia artificial&mdash; de forma práctica y estratégica en el
+          trabajo diario, con foco tanto en las personas como en la optimización de los procesos
+          que sostienen su actividad.
+        </p>
+        <p>
+          En este webinar te muestra el cambio de enfoque que permite usar la IA con criterio,
+          mejorar la forma en que trabajas y recuperar claridad y control sobre tu futuro profesional.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ REGISTRO ============ -->
+  <section class="signup" id="registro" aria-labelledby="signup-title">
+    <div class="wrap signup__grid">
+
+      <div class="signup__intro">
+        <h2 class="signup__title" id="signup-title">Reserva tu plaza</h2>
+        <p>Webinar gratuito, en directo, con turno de preguntas al final.</p>
+
+        <dl class="schedule">
+          <div><dt>España</dt><dd>20:00 h</dd></div>
+          <div><dt>Argentina</dt><dd>15:00 h</dd></div>
+          <div><dt>Panamá / Colombia</dt><dd>13:00 h</dd></div>
+          <div><dt>México (Centro)</dt><dd>12:00 h</dd></div>
+          <div><dt>México (Pacífico)</dt><dd>11:00 h</dd></div>
+        </dl>
+      </div>
+
+      <form class="form" action="#" method="post" novalidate>
+        <div class="field">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" autocomplete="given-name" required>
+        </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+
+        <div class="field field--check">
+          <input type="checkbox" id="privacidad" name="privacidad" required>
+          <label for="privacidad">He leído y acepto la <a href="/privacidad">política de privacidad</a>.</label>
+        </div>
+
+        <button class="btn btn--full" type="submit">Reservar mi plaza</button>
+      </form>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__inner">
+    <span>metodo.netbees.es</span>
+    <a href="/privacidad">Política de privacidad</a>
+  </div>
+</footer>
+
+<script>
+(function () {
+  /* ---------- vídeo: poster -> reproducción (único momento con movimiento) ---------- */
+  var player = document.getElementById('player');
+  var video  = document.getElementById('webinar');
+  var btn    = document.getElementById('playBtn');
+
+  if (player && video && btn) {
+    video.removeAttribute('controls'); // con JS mandan el poster y el botón
+    var start = function () {
+      player.dataset.state = 'playing';
+      video.setAttribute('controls', '');
+      var p = video.play();
+      if (p && p.catch) p.catch(function () {});
+      video.focus({ preventScroll: true });
+    };
+    btn.addEventListener('click', start);
+    video.addEventListener('play', function () {
+      player.dataset.state = 'playing';
+      video.setAttribute('controls', '');
+    });
+    video.addEventListener('ended', function () { player.dataset.state = 'ended'; });
+  }
+
+  /* ---------- cuenta atrás ---------- */
+  var target = new Date('2026-09-16T20:00:00+02:00').getTime();
+  var elD = document.getElementById('cd-d');
+  var elH = document.getElementById('cd-h');
+  var elM = document.getElementById('cd-m');
+  var elS = document.getElementById('cd-s');
+  var grid = document.querySelector('.countdown__grid');
+
+  function pad(n) { return (n < 10 ? '0' : '') + n; }
+
+  function tick() {
+    var diff = target - Date.now();
+    if (diff <= 0) {
+      if (grid) grid.innerHTML = '<span class="countdown__live">El webinar está en directo</span>';
+      clearInterval(timer);
+      return;
+    }
+    var s = Math.floor(diff / 1000);
+    elD.textContent = Math.floor(s / 86400);
+    elH.textContent = pad(Math.floor(s / 3600) % 24);
+    elM.textContent = pad(Math.floor(s / 60) % 60);
+    elS.textContent = pad(s % 60);
+  }
+
+  if (elD && elH && elM && elS) {
+    tick();
+    var timer = setInterval(tick, 1000);
+  }
+})();
+</script>
+
+</body>
+</html>
